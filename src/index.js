@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { Button } from 'semantic-ui-react'
 
+
+const ButtonExampleButton = () => <Button>Click Here</Button>
+
+export default ButtonExampleButton
 
 function Square(props) {
   return (
