@@ -4,7 +4,7 @@ import './index.css';
 import { Button } from 'semantic-ui-react'
 
 
-const ButtonExampleButton = () => <Button>Click Here</Button>
+const ButtonExampleButton = () => <Button>Bid Now</Button>
 
 export default ButtonExampleButton
 
