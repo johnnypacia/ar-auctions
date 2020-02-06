@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Container, Button } from 'semantic-ui-react'
+import { Container, Image, Button } from 'semantic-ui-react'
 
 const ContainerExampleContainer = () => (
   <Container>
@@ -22,7 +22,9 @@ const ContainerExampleContainer = () => (
   </Container>
 )
 
-
+const ImageExampleWrapped = () => (
+  <Image src='/images/wireframe/image.png' size='small' wrapped />
+)
 
 const ButtonExampleButton = () => <Button>Bid Now</Button>
 
