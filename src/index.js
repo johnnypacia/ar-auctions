@@ -170,7 +170,7 @@ function calculateWinner(squares) {
 
 // ========================================
 
-ReactDOM.render(
-  <Game />,
-  document.getElementById('root')
-);
+// ReactDOM.render(
+//   <Game />,
+//   document.getElementById('root')
+// );
