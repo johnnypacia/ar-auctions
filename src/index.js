@@ -1,7 +1,50 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Container, Image, Button } from 'semantic-ui-react'
+import { Container, Image, Button, Menu, Segment } from 'semantic-ui-react';
+
+// export default class MenuExampleSecondary extends Component {
+//   state = { activeItem: 'home' }
+
+//   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
+//   render() {
+//     const { activeItem } = this.state
+
+//     return (
+//       <div>
+//         <Menu secondary>
+//           <Menu.Item
+//             name='home'
+//             active={activeItem === 'home'}
+//             onClick={this.handleItemClick}
+//           />
+//           <Menu.Item
+//             name='earn'
+//             active={activeItem === 'earn'}
+//             onClick={this.handleItemClick}
+//           />
+//           <Menu.Item
+//             name='redeem'
+//             active={activeItem === 'redeem'}
+//             onClick={this.handleItemClick}
+//           />
+//           <Menu.Menu position='right'>
+//             <Menu.Item
+//               name='logout'
+//               active={activeItem === 'logout'}
+//               onClick={this.handleItemClick}
+//             />
+//           </Menu.Menu>
+//         </Menu>
+
+//         <Segment>
+          
+//         </Segment>
+//       </div>
+//     )
+//   }
+// }
 
 const ContainerExampleContainer = () => (
   <Container>
