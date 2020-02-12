@@ -1,27 +1,14 @@
 import React  from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Container, Header, List } from 'semantic-ui-react';
-import Example from "./example";
+import { Container, Header } from 'semantic-ui-react';
+import ARnavbar from "./arnavbar";
+import AuctionContainer from "./auctioncontainer";
 
 
 const App = ({ children }) => (
   <Container style={{ margin: 20 }}>
-    <Header as="h3">This example is powered by Semantic UI React</Header>
-    <List bulleted>
-      <List.Item
-        as="a"
-        content="Official documentation"
-        href="https://react.semantic-ui.com/"
-        target="_blank"
-      />
-      <List.Item
-        as="a"
-        content="StackOverflow"
-        href="https://stackoverflow.com/questions/tagged/semantic-ui-react?sort=frequent"
-        target="_blank"
-      />
-    </List>
+    <Header as="h3">This example is powered by JP</Header>
 
     {children}
   </Container>
@@ -35,7 +22,8 @@ document.head.appendChild(styleLink);
 
 ReactDOM.render(
   <App>
-    <Example />
+    <ARnavbar />
+    <AuctionContainer />
   </App>,
   document.getElementById("root")
 );
