@@ -1,18 +1,15 @@
 import React from 'react'
-import { Container, Header } from 'semantic-ui-react'
+import { Container, Header, Image  } from 'semantic-ui-react'
 
 const AuctionContainer= () => (
   <div>
     <Container fluid>
-      <Header as='h2'>Dogs Roles with Humans</Header>
-      <p>
-        Domestic dogs inherited complex behaviors, such as bite inhibition, from
-        their wolf ancestors, which would have been pack hunters with complex
-        body language. These sophisticated forms of social cognition and
-        communication may account for their trainability, playfulness, and
-        ability to fit into human households and social situations, and these
-        attributes have given dogs a relationship with humans that has enabled
-        them to become one of the most successful species on the planet today.
+      <Image src='ROA_767x575.jpg'  />
+      <Header as='h2'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!
+      </Header>
+      <Header as='h4'>New York, NY | February 29, 2020 @ 8:00PM EST
+      </Header>
+      <p>Join us for an exclusive meet & greet following a performance of Andrew Lloyd Webber’s The Phantom of the Opera! After the show ends, you and a guest will be invited to meet the current Christine Daaé and learn more about Broadway’s breathtaking original production. Don’t forget your camera!
       </p>
     </Container>
   </div>

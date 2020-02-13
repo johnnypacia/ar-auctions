@@ -10,7 +10,7 @@ export default class MenuExampleSecondary extends Component {
     const { activeItem } = this.state;
 
     return (
-      <Menu secondary>
+      <Menu secondary> 
         <Menu.Item
           name="home"
           active={activeItem === "home"}
