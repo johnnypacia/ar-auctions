@@ -8,7 +8,6 @@ import AuctionContainer from "./auctioncontainer";
 
 const App = ({ children }) => (
   <Container style={{ margin: 20 }}>
-    <Header as="h3">This example is powered by JP</Header>
 
     {children}
   </Container>

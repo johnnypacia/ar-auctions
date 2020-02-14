@@ -1,10 +1,43 @@
 import React from 'react'
-import { Container, Header, Image  } from 'semantic-ui-react'
+import { Container, Header, Grid, Image, Segment, Divider  } from 'semantic-ui-react'
 
 const AuctionContainer= () => (
   <div>
     <Container fluid>
-      <Image src='ROA_767x575.jpg'  />
+       <Segment>
+        <Grid columns={2} relaxed='very'>
+          <Grid.Column>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+            <p>
+              <Image src='ROA_767x575.jpg' />
+            </p>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+          </Grid.Column>
+          <Grid.Column>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+          </Grid.Column>
+        </Grid>
+        <Divider vertical>And</Divider>
+      </Segment>
+      <Image src={'ROA_767x575.jpg'} size='medium' />
       <Header as='h2'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!
       </Header>
       <Header as='h4'>New York, NY | February 29, 2020 @ 8:00PM EST
