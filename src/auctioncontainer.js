@@ -8,24 +8,12 @@ const AuctionContainer= () => (
         <Grid columns={2} relaxed='very'>
           <Grid.Column>
             <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-            <p>
               <Image src='ROA_767x575.jpg' />
             </p>
           </Grid.Column>
           <Grid.Column>
             <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+              Join us for an exclusive meet & greet following a performance of Andrew Lloyd Webber’s The Phantom of the Opera! After the show ends, you and a guest will be invited to meet the current Christine Daaé and learn more about Broadway’s breathtaking original production. Don’t forget your camera!
             </p>
           </Grid.Column>
         </Grid>
