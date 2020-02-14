@@ -1,7 +1,7 @@
 import React  from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Container, Header } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import ARnavbar from "./arnavbar";
 import AuctionContainer from "./auctioncontainer";
 
