@@ -13,12 +13,6 @@ const AuctionContainer= () => (
             <p>
               <Image src='ROA_767x575.jpg' />
             </p>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
           </Grid.Column>
           <Grid.Column>
             <p>
