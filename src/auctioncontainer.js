@@ -3,22 +3,7 @@ import { Container, Header, Grid, Image, Segment, Divider  } from 'semantic-ui-r
 
 const AuctionContainer= () => (
   <div>
-    <Container fluid>
-       <Segment>
-        <Grid columns={2} relaxed='very'>
-          <Grid.Column>
-            <p>
-              <Image src='ROA_767x575.jpg' />
-            </p>
-          </Grid.Column>
-          <Grid.Column>
-            <p>
-              Join us for an exclusive meet & greet following a performance of Andrew Lloyd Webber’s The Phantom of the Opera! After the show ends, you and a guest will be invited to meet the current Christine Daaé and learn more about Broadway’s breathtaking original production. Don’t forget your camera!
-            </p>
-          </Grid.Column>
-        </Grid>
-        <Divider vertical>And</Divider>
-      </Segment>
+    <Container fluid style={{ marginTop: '7em' }}>
       <Image src={'ROA_767x575.jpg'} size='medium' />
       <Header as='h2'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!
       </Header>
