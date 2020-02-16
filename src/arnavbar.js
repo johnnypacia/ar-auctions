@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Input, Menu } from "semantic-ui-react";
+import { Input,
+		 Image, 
+		 Menu } from "semantic-ui-react";
 
 export default class MenuExampleSecondary extends Component {
   state = { activeItem: "home" };
@@ -11,21 +13,23 @@ export default class MenuExampleSecondary extends Component {
 
     return (
       <Menu fixed='top' secondary style={{ marginBottom: '7em' }}> 
-        <Menu.Item
-          name="home"
-          active={activeItem === "home"}
+        <Menu.Item as='a' header>
+          <Image size='small' src='Logo_158x57.png' style={{ marginRight: '1.5em' }} />
+        </Menu.Item>
+        <Menu.Menu position="right">
+          <Menu.Item 
+          name="earn"
+          active={activeItem === "earn"}
           onClick={this.handleItemClick}
-        />
-        <Menu.Item
-          name="messages"
-          active={activeItem === "messages"}
+          />
+          <Menu.Item
+          name="redeem"
+          active={activeItem === "redeem"}
           onClick={this.handleItemClick}
-        />
-        <Menu.Item
-          name="friends"
-          active={activeItem === "friends"}
-          onClick={this.handleItemClick}
-        />
+       		 />
+        </Menu.Menu>
+
+
         <Menu.Menu position="right">
           <Menu.Item>
             <Input icon="search" placeholder="Search..." />
