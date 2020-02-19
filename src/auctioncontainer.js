@@ -5,7 +5,7 @@ const AuctionContainer= () => (
   <div>
     <Container fluid style={{ marginTop: '7em' }}>
       <Image src={'ROA_767x575.jpg'} size='medium' />
-      <Header as='h2'>Meet Meghan Picerno and see her The  of the Opera on Broadway!
+      <Header as='h2'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!
       </Header>
       <Header as='h4'>New York, NY | February 29, 2020 @ 8:00PM EST
       </Header>
