@@ -12,7 +12,7 @@ export default class MenuExampleSecondary extends Component {
     const { activeItem } = this.state;
 
     return (
-      <Menu fixed='top' secondary style={{ marginBottom: '7em' }}> 
+      <Menu fixed='top' secondary red style={{ marginBottom: '7em' }}> 
         <Menu.Item as='a' header>
           <Image size='small' src='Logo_158x57.png' style={{ marginRight: '1.5em' }} />
         </Menu.Item>
