@@ -3,7 +3,34 @@ import { Container, Header, Grid, Image, Segment, Divider  } from 'semantic-ui-r
 
 const AuctionContainer= () => (
   <div>
-    <Container fluid style={{ marginTop: '7em' }}>
+    <Container fluid style={{ marginTop: '17em' }}>
+       <Segment>
+        <Grid columns={2} relaxed='very'>
+          <Grid.Column>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+          </Grid.Column>
+          <Grid.Column>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+            <p>
+              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+            </p>
+          </Grid.Column>
+        </Grid>
+        <Divider vertical>And</Divider>
+      </Segment>
       <Image src={'ROA_767x575.jpg'} size='medium' />
       <Header as='h2'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!
       </Header>

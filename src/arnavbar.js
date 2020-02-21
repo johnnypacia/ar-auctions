@@ -12,24 +12,23 @@ export default class MenuExampleSecondary extends Component {
     const { activeItem } = this.state;
 
     return (
-      <Menu fixed='top' secondary red style={{ marginBottom: '7em' }}> 
+      <Menu fixed='top' secondary style={{ marginBottom: '7em' }}> 
         <Menu.Item as='a' header>
           <Image size='small' src='Logo_158x57.png' style={{ marginRight: '1.5em' }} />
         </Menu.Item>
-        <Menu.Menu position="right">
-          <Menu.Item 
+        
+        <Menu.Item 
           name="earn"
           active={activeItem === "earn"}
           onClick={this.handleItemClick}
-          />
-          <Menu.Item
+        />
+        <Menu.Item
           name="redeem"
           active={activeItem === "redeem"}
           onClick={this.handleItemClick}
-       		 />
-        </Menu.Menu>
+        />
 
-
+        
         <Menu.Menu position="right">
           <Menu.Item>
             <Input icon="search" placeholder="Search..." />
