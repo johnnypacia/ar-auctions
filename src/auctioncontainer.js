@@ -29,7 +29,7 @@ const AuctionContainer= () => (
             </p>
           </Grid.Column>
         </Grid>
-        <Divider vertical>And</Divider>
+        <Divider vertical>And </Divider>
       </Segment>
       <Image src={'ROA_767x575.jpg'} size='medium' />
       <Header as='h2'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!
