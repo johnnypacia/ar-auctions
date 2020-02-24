@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Header, Image, Segment, Item } from 'semantic-ui-react'
+import { Container, Header, Image, Segment, Item, Divider } from 'semantic-ui-react'
 
 const AuctionContainer= () => (
   <div>
@@ -18,6 +18,7 @@ const AuctionContainer= () => (
               <Item.Extra>Additional Details</Item.Extra>
             </Item.Content>
           </Item>
+          <Divider />
           <Item>
             <Item.Image size='medium' src='ROA_767x575.jpg' />
 
@@ -30,6 +31,7 @@ const AuctionContainer= () => (
               <Item.Extra>Additional Details</Item.Extra>
             </Item.Content>
           </Item>
+          <Divider />
         </Item.Group>
       </Segment>
       
