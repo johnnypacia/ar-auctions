@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Header, Grid, Image, Segment, Divider  } from 'semantic-ui-react'
+import { Container, Header, Image, Segment  } from 'semantic-ui-react'
 
 const AuctionContainer= () => (
   <div>
@@ -12,30 +12,6 @@ const AuctionContainer= () => (
       </Header>
       <p>Join us for an exclusive meet & greet following a performance of Andrew Lloyd Webber’s The Phantom of the Opera! After the show ends, you and a guest will be invited to meet the current Christine Daaé and learn more about Broadway’s breathtaking original production. Don’t forget your camera!
       </p>
-        <Grid columns={2} >
-          <Grid.Column>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-          </Grid.Column>
-          <Grid.Column>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-            <p>
-              <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-            </p>
-          </Grid.Column>
-        </Grid>
       </Segment>
       
     </Container>
