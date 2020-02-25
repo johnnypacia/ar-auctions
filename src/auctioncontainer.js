@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Header, Image, Segment, Item, Divider } from 'semantic-ui-react'
+import { Container, Segment, Item, Divider } from 'semantic-ui-react'
 
 const AuctionContainer= () => (
   <div>
@@ -10,7 +10,7 @@ const AuctionContainer= () => (
             <Item.Image size='medium' src='ROA_767x575.jpg' />
 
             <Item.Content>
-              <Item.Header as='a'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!r</Item.Header>
+              <Item.Header as='a'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!</Item.Header>
               <Item.Meta>New York, NY | February 29, 2020 @ 8:00PM EST</Item.Meta>
               <Item.Description>
                 <p>Join us for an exclusive meet & greet following a performance of Andrew Lloyd Webber’s The Phantom of the Opera! After the show ends, you and a guest will be invited to meet the current Christine Daaé and learn more about Broadway’s breathtaking original production. Don’t forget your camera!</p>
@@ -23,7 +23,7 @@ const AuctionContainer= () => (
             <Item.Image size='medium' src='ROA_767x575.jpg' />
 
             <Item.Content>
-              <Item.Header as='a'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!r</Item.Header>
+              <Item.Header as='a'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!</Item.Header>
               <Item.Meta>New York, NY | February 29, 2020 @ 8:00PM EST</Item.Meta>
               <Item.Description>
                 <p>Join us for an exclusive meet & greet following a performance of Andrew Lloyd Webber’s The Phantom of the Opera! After the show ends, you and a guest will be invited to meet the current Christine Daaé and learn more about Broadway’s breathtaking original production. Don’t forget your camera!</p>
