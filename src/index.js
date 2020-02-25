@@ -4,6 +4,7 @@ import './index.css';
 import { Container } from 'semantic-ui-react';
 import ARnavbar from "./arnavbar";
 import AuctionContainer from "./auctioncontainer";
+import ImageFluid from "./imagefluid";
 
 
 const App = ({ children }) => (
@@ -23,6 +24,7 @@ ReactDOM.render(
   <App>
     <ARnavbar />
     <AuctionContainer />
+    <ImageFluid />
   </App>,
   document.getElementById("root")
 );
