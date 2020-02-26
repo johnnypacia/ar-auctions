@@ -11,11 +11,9 @@ const AuctionContainer= () => (
 
             <Item.Content>
               <Item.Header as='a'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!</Item.Header>
+              <Item.Description><a href="www.github.com/johnnypacia">3 Packages Avaiable Starting at 1000 ShowPoints</a></Item.Description>
               <Item.Meta>New York, NY | February 29, 2020 @ 8:00PM EST</Item.Meta>
-              <Item.Description>
-                <p>Join us for an exclusive meet & greet following a performance of Andrew Lloyd Webber’s The Phantom of the Opera! After the show ends, you and a guest will be invited to meet the current Christine Daaé and learn more about Broadway’s breathtaking original production. Don’t forget your camera!</p>
-              </Item.Description>
-              <Item.Extra>Additional Details</Item.Extra>
+              <Item.Extra><p>Join us for an exclusive meet & greet following a performance of Andrew Lloyd Webber’s The Phantom of the Opera! After the show ends, you and a guest will be invited to meet the current Christine Daaé and learn more about Broadway’s breathtaking original production. Don’t forget your camera!</p></Item.Extra>
             </Item.Content>
           </Item>
           <Divider />
