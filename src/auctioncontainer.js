@@ -10,7 +10,7 @@ const AuctionContainer= () => (
             <Item.Image size='medium' src='ROA_767x575.jpg' />
 
             <Item.Content>
-              <Item.Header as='a'>Meet Meghan Picerno and see her The Phantom of the Opera on Broadway!</Item.Header>
+              <Item.Header as='a'>See WICKED and hit the bowling lanes with some of the cast!</Item.Header>
               <Item.Description><a href="www.github.com/johnnypacia">3 Packages Avaiable Starting at 1000 ShowPoints</a></Item.Description>
               <Item.Meta>New York, NY | February 29, 2020 @ 8:00PM EST</Item.Meta>
               <Item.Extra><p>Join us for an exclusive meet & greet following a performance of Andrew Lloyd Webber’s The Phantom of the Opera! After the show ends, you and a guest will be invited to meet the current Christine Daaé and learn more about Broadway’s breathtaking original production. Don’t forget your camera!</p></Item.Extra>
