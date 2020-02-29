@@ -14,6 +14,7 @@ const AuctionContainer= () => (
               <Item.Description><a href="www.github.com/johnnypacia">3 Packages Avaiable Starting at 1000 ShowPoints</a></Item.Description>
               <Item.Meta>New York, NY | March 29, 2020 @ 3:00PM EST</Item.Meta>
               <Item.Extra><p>Let's go down to the Ozdust BOWLroom! Join an exclusive group of Audience Rewards members at the matinee of WICKED on 3/29, followed by bowling, food, and drinks with a group of WICKED cast members (and WICKED representatives in the Broadway Bowling League!)</p></Item.Extra>
+              <Item.Extra><p>Let's go down to the Ozdust BOWLroom! Join an exclusive group of Audience Rewards members at the matinee of WICKED on 3/29, followed by bowling, food, and drinks with a group of WICKED cast members (and WICKED representatives in the Broadway Bowling League!)</p></Item.Extra>
             </Item.Content>
           </Item>
           <Divider />
