@@ -1,36 +1,10 @@
 import React from 'react'
-import { Container, Segment, Menu, Item, Divider } from 'semantic-ui-react'
+import { Container, Segment, Item, Divider } from 'semantic-ui-react'
 
 const AuctionContainer= () => (
   <div>
     <Container fluid style={{ marginTop: '7em' }}>
       <Segment>
-         <Menu size='mini'>
-            <Menu.Item
-              name='home'
-              active={activeItem === 'home'}
-              onClick={this.handleItemClick}
-            />
-            <Menu.Item
-              name='messages'
-              active={activeItem === 'messages'}
-              onClick={this.handleItemClick}
-            />
-
-            <Menu.Menu position='right'>
-              <Dropdown item text='Language'>
-                <Dropdown.Menu>
-                  <Dropdown.Item>English</Dropdown.Item>
-                  <Dropdown.Item>Russian</Dropdown.Item>
-                  <Dropdown.Item>Spanish</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-
-              <Menu.Item>
-                <Button primary>Sign Up</Button>
-              </Menu.Item>
-            </Menu.Menu>
-          </Menu>
         <Item.Group>
           <Item>
             <Item.Image size='medium' src='bowlroom.jpg' />
@@ -39,7 +13,6 @@ const AuctionContainer= () => (
               <Item.Header as='a'>See WICKED and hit the bowling lanes with some of the cast!</Item.Header>
               <Item.Description><a href="www.github.com/johnnypacia">3 Packages Avaiable Starting at 1000 ShowPoints</a></Item.Description>
               <Item.Meta>New York, NY | March 29, 2020 @ 3:00PM EST</Item.Meta>
-              <Item.Extra><p>Let's go down to the Ozdust BOWLroom! Join an exclusive group of Audience Rewards members at the matinee of WICKED on 3/29, followed by bowling, food, and drinks with a group of WICKED cast members (and WICKED representatives in the Broadway Bowling League!)</p></Item.Extra>
               <Item.Extra><p>Let's go down to the Ozdust BOWLroom! Join an exclusive group of Audience Rewards members at the matinee of WICKED on 3/29, followed by bowling, food, and drinks with a group of WICKED cast members (and WICKED representatives in the Broadway Bowling League!)</p></Item.Extra>
             </Item.Content>
           </Item>
