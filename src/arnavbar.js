@@ -42,7 +42,7 @@ export default class MenuExampleSecondary extends Component {
             />
           </Menu.Menu>
         </Menu>
-        <Menu size='mini' fixed='top' position='center' secondary  style={{ marginTop: '7em' }}>
+        <Menu size='mini' fixed='top' secondary  style={{ marginTop: '6em' , marginLeft: '25%' ,  maxWidth: '50%' }}>
           <Menu.Item
             name='upcoming'
             active={activeItem === 'upcoming'}
