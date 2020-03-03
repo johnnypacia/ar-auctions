@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Input,
-     Item,
 		 Image, 
 		 Menu, 
      Dropdown 
@@ -45,7 +44,7 @@ export default class MenuExampleSecondary extends Component {
           </Menu.Menu>
         </Menu>
         <Menu size='mini' fixed='top' secondary  style={{ marginTop: '6em' ,  backgroundColor: '#781d4f' }}>
-          <Menu.Image size='medium' src='cat-auctions.png' />
+          <Menu.Item size='medium' src='cat-auctions.png' />
           <Menu.Item style={{ marginLeft: '30%'}}
             name='upcoming'
             active={activeItem === 'upcoming'}
