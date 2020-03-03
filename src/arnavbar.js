@@ -43,9 +43,12 @@ export default class MenuExampleSecondary extends Component {
             />
           </Menu.Menu>
         </Menu>
-        <Menu size='mini' fixed='top' secondary  style={{ marginTop: '6em' ,  backgroundColor: '#781d4f' }}>
-          <Menu.Item size='medium' src='cat-auctions.png' />
-          <Menu.Item style={{ marginLeft: '30%'}}
+        <Menu size='mini' fixed='top' secondary  style={{ marginTop: '6em' , maxWidth: '200em' , backgroundColor: '#781d4f' }}>
+
+          <Menu.Item style={{ marginLeft: '30em' }}>
+            <Image size='mini' src='cat-auctions.png' />
+          </Menu.Item>
+          <Menu.Item 
             name='upcoming'
             active={activeItem === 'upcoming'}
             onClick={this.handleItemClick}
@@ -60,7 +63,7 @@ export default class MenuExampleSecondary extends Component {
             active={activeItem === 'closed'}
             onClick={this.handleItemClick}
           />
-          <Menu.Menu position='right' style={{ marginRight: '40%'}}>
+          <Menu.Item>
             <Dropdown item text='Sort By'>
               <Dropdown.Menu>
                 <Dropdown.Item>Ending Soonest</Dropdown.Item>
@@ -70,7 +73,10 @@ export default class MenuExampleSecondary extends Component {
                 <Dropdown.Item>Show Points (high to low)</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-          </Menu.Menu>
+          </Menu.Item>
+           <Menu.Item>
+            <Image size='mini' src='cat-auctions.png' />
+          </Menu.Item>
         </Menu>
       </React.Fragment>    
     );

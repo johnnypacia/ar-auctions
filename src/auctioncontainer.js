@@ -4,7 +4,7 @@ import { Container, Segment, Item, Divider } from 'semantic-ui-react'
 const AuctionContainer= () => (
   <div>
     <Container fluid style={{ marginTop: '7em' }}>
-      <Segment>
+      <Segment style={{ paddingTop: '100px'}}>
         <Item.Group>
           <Item>
             <Item.Image size='medium' src='bowlroom.jpg' />
