@@ -7,7 +7,7 @@ import AuctionContainer from "./auctioncontainer";
 
 
 const App = ({ children }) => (
-  <Container style={{ margin: 20 }}>
+  <Container>
 
     {children}
   </Container>

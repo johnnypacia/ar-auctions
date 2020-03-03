@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Segment, Item, Divider } from 'semantic-ui-react'
 
 const AuctionContainer= () => (
-  <div style={{ backgroundColor: '#781d4f'}}>
+  <div>
     <Container fluid style={{ marginTop: '7em' }}>
       <Segment>
         <Item.Group>
