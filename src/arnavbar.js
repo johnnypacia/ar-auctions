@@ -15,7 +15,7 @@ export default class MenuExampleSecondary extends Component {
 
     return (
       <React.Fragment>
-        <Menu fixed='top' secondary style={{ marginBottom: '7em', backgroundColor: '#781d4f' }}> 
+        <Menu fixed='top' secondary style={{ marginBottom: '7em', backgroundColor: '#781d4f', textDecoration: 'underline'}}> 
           <Menu.Item as='a' header>
             <Image size='small' src='Logo_158x57.png' style={{ marginRight: '1.5em' }} />
           </Menu.Item>
@@ -61,7 +61,7 @@ export default class MenuExampleSecondary extends Component {
             onClick={this.handleItemClick}
           />
           <Menu.Menu position='right' style={{ marginRight: '40%'}}>
-            <Dropdown item text='sort by'>
+            <Dropdown item text='Sort By'>
               <Dropdown.Menu>
                 <Dropdown.Item>Ending Soonest</Dropdown.Item>
                 <Dropdown.Item>Newly Listed</Dropdown.Item>
