@@ -20,12 +20,12 @@ export default class MenuExampleSecondary extends Component {
             <Image size='small' src='Logo_158x57.png' style={{ marginRight: '1.5em' }} />
           </Menu.Item>
           
-          <Menu.Item 
+          <Menu.Item style={{ color: '#FFFFFF' }}
             name="earn"
             active={activeItem === "earn"}
             onClick={this.handleItemClick}
           />
-          <Menu.Item
+          <Menu.Item style={{ color: '#FFFFFF' }}
             name="redeem"
             active={activeItem === "redeem"}
             onClick={this.handleItemClick}
@@ -36,7 +36,7 @@ export default class MenuExampleSecondary extends Component {
             <Menu.Item>
               <Input icon="search" placeholder="Search..." />
             </Menu.Item>
-            <Menu.Item
+            <Menu.Item style={{ color: '#FFFFFF' }}
               name="logout"
               active={activeItem === "logout"}
               onClick={this.handleItemClick}
@@ -48,23 +48,23 @@ export default class MenuExampleSecondary extends Component {
           <Menu.Item style={{ marginLeft: '30em' }}>
             <Image size='mini' src='cat-auctions.png' />
           </Menu.Item>
-          <Menu.Item 
+          <Menu.Item  style={{ color: '#FFFFFF' }}
             name='upcoming'
             active={activeItem === 'upcoming'}
             onClick={this.handleItemClick}
           />
-          <Menu.Item
+          <Menu.Item style={{ color: '#FFFFFF' }}
             name='current'
             active={activeItem === 'current'}
             onClick={this.handleItemClick}
           />
-          <Menu.Item
+          <Menu.Item style={{ color: '#FFFFFF' }}
             name='closed'
             active={activeItem === 'closed'}
             onClick={this.handleItemClick}
           />
           <Menu.Item>
-            <Dropdown item text='Sort By'>
+            <Dropdown item text='Sort By' style={{ color: '#FFFFFF' }}>
               <Dropdown.Menu>
                 <Dropdown.Item>Ending Soonest</Dropdown.Item>
                 <Dropdown.Item>Newly Listed</Dropdown.Item>
