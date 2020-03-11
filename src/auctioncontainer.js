@@ -6,6 +6,7 @@ const AuctionContainer= () => (
     <Container fluid style={{ marginTop: '7em' }}>
       <Segment style={{ paddingTop: '100px'}}>
         <Item.Group>
+          <Item>
             <Item.Image size='medium' src='bowlroom.jpg' />
 
             <Item.Content>
