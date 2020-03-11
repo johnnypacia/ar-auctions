@@ -33,7 +33,7 @@ export default class MenuExampleSecondary extends Component {
 
           
           <Menu.Menu position="right">
-            <Menu.Item>
+            <Menu.Item  
               <Input icon="search" placeholder="Search..." />
             </Menu.Item>
             <Menu.Item style={{ color: '#FFFFFF' }}
