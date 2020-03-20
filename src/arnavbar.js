@@ -20,12 +20,12 @@ export default class MenuExampleSecondary extends Component {
             <Image size='small' src='Logo_158x57.png' style={{ marginRight: '1.5em' }} />
           </Menu.Item>
           
-          <Menu.Item style={{ color: '#FFFFFF', backgroundColor: '#521d41' }}
+          <Menu.Item style={{ color: '#FFFFFF', backgroundColor: '#521d41', fontFamily: 'Montserrat, sans-serif' }}
             name="earn"
             active={activeItem === "earn"}
             onClick={this.handleItemClick}
           />
-          <Menu.Item style={{ color: '#FFFFFF', backgroundColor: '#521d41' }}
+          <Menu.Item style={{ color: '#FFFFFF', backgroundColor: '#521d41', fontFamily: 'Montserrat, sans-serif' }}
             name="redeem"
             active={activeItem === "redeem"}
             onClick={this.handleItemClick}
@@ -36,7 +36,7 @@ export default class MenuExampleSecondary extends Component {
             <Menu.Item> 
               <Input icon="search" placeholder="Search..." />
             </Menu.Item>
-            <Menu.Item style={{ color: '#FFFFFF' }}
+            <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
               name="logout"
               active={activeItem === "logout"}
               onClick={this.handleItemClick}
@@ -48,23 +48,23 @@ export default class MenuExampleSecondary extends Component {
           <Menu.Item style={{ marginLeft: '30em' }}>
             <Image size='mini' src='cat-auctions.png' />
           </Menu.Item>
-          <Menu.Item  style={{ color: '#FFFFFF' }}
+          <Menu.Item  style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
             name='upcoming'
             active={activeItem === 'upcoming'}
             onClick={this.handleItemClick}
           />
-          <Menu.Item style={{ color: '#FFFFFF' }}
+          <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
             name='current'
             active={activeItem === 'current'}
             onClick={this.handleItemClick}
           />
-          <Menu.Item style={{ color: '#FFFFFF' }}
+          <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
             name='closed'
             active={activeItem === 'closed'}
             onClick={this.handleItemClick}
           />
           <Menu.Item>
-            <Dropdown item text='Sort By' style={{ color: '#FFFFFF' }}>
+            <Dropdown item text='Sort By' style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}>
               <Dropdown.Menu>
                 <Dropdown.Item>Ending Soonest</Dropdown.Item>
                 <Dropdown.Item>Newly Listed</Dropdown.Item>
