@@ -20,12 +20,12 @@ export default class MenuExampleSecondary extends Component {
             <Image size='small' src='Logo_158x57.png' style={{ marginRight: '1.5em' }} />
           </Menu.Item>
           
-          <Menu.Item style={{ color: '#FFFFFF' }}
+          <Menu.Item style={{ color: '#FFFFFF', backgroundColor: '#521d41' }}
             name="earn"
             active={activeItem === "earn"}
             onClick={this.handleItemClick}
           />
-          <Menu.Item style={{ color: '#FFFFFF' }}
+          <Menu.Item style={{ color: '#FFFFFF', backgroundColor: '#521d41' }}
             name="redeem"
             active={activeItem === "redeem"}
             onClick={this.handleItemClick}
