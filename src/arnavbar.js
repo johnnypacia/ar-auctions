@@ -48,9 +48,10 @@ export default class MenuExampleSecondary extends Component {
             />
           </Menu.Menu>
         </Menu>
-        <Menu size='mini' fixed='top' secondary  style={{ marginTop: '6em' , maxWidth: '200em' , backgroundColor: '#781d4f' }}>
 
-          <Menu.Item style={{ marginLeft: '30em' }}>
+        <Menu  fixed='top' secondary  style={{ marginTop: '6em' , maxWidth: '100%' , backgroundColor: '#781d4f' }}>
+
+          <Menu.Item >
             <Image size='mini' src='cat-auctions.png' />
           </Menu.Item>
           <Menu.Item  style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', textDecoration: 'underline' }}
