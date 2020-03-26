@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Input,
-		 Image, 
+import { Image, 
 		 Menu, 
      Dropdown 
      } from "semantic-ui-react";
@@ -33,12 +32,14 @@ export default class MenuExampleSecondary extends Component {
 
           
           <Menu.Menu position="right">
-            <Menu.Item> 
-              <Input icon="search" placeholder="Search..." />
-            </Menu.Item>
             <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
-              name="logout"
-              active={activeItem === "logout"}
+              name="sign in"
+              active={activeItem === "sign in"}
+              onClick={this.handleItemClick}
+            />
+            <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
+              name="join for free"
+              active={activeItem === "join for free"}
               onClick={this.handleItemClick}
             />
           </Menu.Menu>
