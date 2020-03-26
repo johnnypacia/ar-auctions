@@ -14,17 +14,17 @@ export default class MenuExampleSecondary extends Component {
 
     return (
       <React.Fragment>
-        <Menu fixed='top' secondary style={{ marginBottom: '7em', backgroundColor: '#781d4f', textDecoration: 'underline'}}> 
+        <Menu fixed='top' secondary style={{ marginBottom: '7em', backgroundColor: '#781d4f'}}> 
           <Menu.Item as='a' header>
             <Image size='small' src='Logo_158x57.png' style={{ marginRight: '1.5em' }} />
           </Menu.Item>
           
-          <Menu.Item style={{ color: '#FFFFFF', backgroundColor: '#521d41', fontFamily: 'Montserrat, sans-serif' }}
+          <Menu.Item style={{ color: '#FFFFFF', backgroundColor: '#521d41', fontFamily: 'Montserrat, sans-serif', textDecoration: 'underline' }}
             name="earn"
             active={activeItem === "earn"}
             onClick={this.handleItemClick}
           />
-          <Menu.Item style={{ color: '#FFFFFF', backgroundColor: '#521d41', fontFamily: 'Montserrat, sans-serif' }}
+          <Menu.Item style={{ color: '#FFFFFF', backgroundColor: '#521d41', fontFamily: 'Montserrat, sans-serif', textDecoration: 'underline' }}
             name="redeem"
             active={activeItem === "redeem"}
             onClick={this.handleItemClick}
@@ -32,12 +32,16 @@ export default class MenuExampleSecondary extends Component {
 
           
           <Menu.Menu position="right">
-            <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
+            <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', textDecoration: 'none' }}
               name="sign in"
               active={activeItem === "sign in"}
               onClick={this.handleItemClick}
             />
-            <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
+
+            <Menu.Item style={{backgroundColor: '#FFFFFF', borderRadius: '50%', color: '#000000' , padding: '5px' , font: 'normal 0.71em Georgia', textDecoration: 'none', fontStyle: 'italic' }} 
+              name="or"
+            />
+            <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', textDecoration: 'none' }}
               name="join for free"
               active={activeItem === "join for free"}
               onClick={this.handleItemClick}
@@ -49,23 +53,23 @@ export default class MenuExampleSecondary extends Component {
           <Menu.Item style={{ marginLeft: '30em' }}>
             <Image size='mini' src='cat-auctions.png' />
           </Menu.Item>
-          <Menu.Item  style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
+          <Menu.Item  style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', textDecoration: 'underline' }}
             name='upcoming'
             active={activeItem === 'upcoming'}
             onClick={this.handleItemClick}
           />
-          <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
+          <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', textDecoration: 'underline' }}
             name='current'
             active={activeItem === 'current'}
             onClick={this.handleItemClick}
           />
-          <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}
+          <Menu.Item style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', textDecoration: 'underline' }}
             name='closed'
             active={activeItem === 'closed'}
             onClick={this.handleItemClick}
           />
           <Menu.Item>
-            <Dropdown item text='Sort By' style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif' }}>
+            <Dropdown item text='Sort By' style={{ color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', textDecoration: 'none'  }}>
               <Dropdown.Menu>
                 <Dropdown.Item>Ending Soonest</Dropdown.Item>
                 <Dropdown.Item>Newly Listed</Dropdown.Item>
